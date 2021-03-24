@@ -1,0 +1,187 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "f080ec43-15d6-4d74-9669-db2436690932": {
+        "id": "f080ec43-15d6-4d74-9669-db2436690932",
+        "parent": null,
+        "name": "hirutest-2103.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hirutest-2103.js",
+        "cursor": {
+          "lineNumber": 40,
+          "column": 18
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "hirutest2103"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1616578582309,
+        "testCases": {
+          "242259f3-ce80-4dbe-901d-e8bd069abbcd": {
+            "id": "242259f3-ce80-4dbe-901d-e8bd069abbcd",
+            "name": "Test event",
+            "functionId": "f080ec43-15d6-4d74-9669-db2436690932",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "f32014e1-2f56-4357-94f1-552117036faa": {
+        "id": "f32014e1-2f56-4357-94f1-552117036faa",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "3c591b11-adc8-42b3-ad94-69b08e2b31f8": {
+        "id": "3c591b11-adc8-42b3-ad94-69b08e2b31f8",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "168636db-4f3d-469f-8a17-28d7d982b6c1": {
+        "id": "168636db-4f3d-469f-8a17-28d7d982b6c1",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      },
+      "3e1a1232-e3a2-45a9-b57d-8386e10140b7": {
+        "id": "3e1a1232-e3a2-45a9-b57d-8386e10140b7",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
+      },
+      "1d9003c1-b9e6-4c2d-99e9-f621ab96ccf7": {
+        "id": "1d9003c1-b9e6-4c2d-99e9-f621ab96ccf7",
+        "parent": null,
+        "name": "hirufunction2.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hirufunction2.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 256,
+          "triggerType": 1,
+          "name": "hirufunction2"
+        },
+        "triggers": [
+          {
+            "resourceName": "pubsubtest12induuu",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1616582607452
+      }
+    },
+    "openFiles": [
+      "f080ec43-15d6-4d74-9669-db2436690932",
+      "1d9003c1-b9e6-4c2d-99e9-f621ab96ccf7"
+    ],
+    "currentFileId": "1d9003c1-b9e6-4c2d-99e9-f621ab96ccf7",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "storagehirutest01": {
+        "name": "storagehirutest01",
+        "type": "CloudStorage",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "hirutest01"
+          }
+        }
+      },
+      "pubsubtest12induuu": {
+        "name": "pubsubtest12induuu",
+        "type": "CloudPubSub",
+        "config": {
+          "mode": 1,
+          "topic": {
+            "name": "test12induuu",
+            "subscriptions": []
+          }
+        }
+      },
+      "datastore": {
+        "name": "datastore",
+        "type": "CloudDatastore",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.7.2",
+    "projectName": "hirutest-2103",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1616582989573
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hirutest-2103",
+      "url": "https://github.com/HirudineeADRT/hirutest-2103"
+    }
+  }
+}
